@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family:’Poppins’,sans-serif;
+    }
 
 .cabecalho {
     background-color: #424E61;
@@ -44,4 +50,41 @@
 
 .escola-titulo{
     padding: 24px 0;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.professora-imagem{
+    width: 175px;
+}
+
+.professora-icone{
+    width: 25px;
+}
+.estudante-icone{
+    width: 25px;
+}
+.estudante-imagem{
+    width: 175px;
+}
+
+.esrudante-titulo{
+    text-align: center;
+    padding: 50 px 0;
+
+}
+
+.estudantes-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
