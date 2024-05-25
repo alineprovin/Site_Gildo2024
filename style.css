@@ -29,7 +29,8 @@ body{
 }
 
 .brasão-escola-2024{
-    width: 25%;
+    width: 20%;
+    padding: 50px;
 }
 
 .escola{
@@ -52,19 +53,12 @@ body{
     padding: 24px 0;
 }
 
-.poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-
+.professora{
+    text-align: center;
+    padding: 50 px 0;
+}
 .professora-imagem{
+    align-items: center;
     width: 175px;
 }
 
@@ -78,7 +72,7 @@ body{
     width: 175px;
 }
 
-.esrudante-titulo{
+.estudante-titulo{
     text-align: center;
     padding: 50 px 0;
 
@@ -87,4 +81,15 @@ body{
 .estudantes-todos{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;   
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
 }
